@@ -1,76 +1,95 @@
-🛫 Flight Delay Prediction for Tunisair Handling ✈️
 
-🌸 Project Overview
-Flight delays are a major challenge in the aviation industry, especially for ground operations like Tunisair Handling. This project uses Machine Learning to analyze historical flight data and predict delays — helping improve operational efficiency and passenger satisfaction.
+<h1 align="center" style="color:#ffb6c1;">✈️ Flight Delay Prediction – Tunisair Handling</h1>
 
-We tackle this problem with three different predictive models:
+<p align="center" style="color:#b19cd9; font-size: 18px;">Machine Learning to predict and reduce flight delays for better operational efficiency 🛬📉</p>
 
-🤖 Machine Learning Models Used
-1️⃣ Binary Classification
-Goal: Will the flight be delayed?
-🎯 Type: Yes / No
-🔍 Model Examples: Logistic Regression, Random Forest, XGBoost
-🎯 Use Case: Alert operations to potential delays in advance.
+---
 
-2️⃣ Regression
-Goal: How many minutes will the flight be delayed?
-🕒 Type: Numerical prediction (e.g., 25 minutes)
-📈 Model Examples: Linear Regression, Gradient Boosting Regressor
-⏱️ Use Case: Plan better resource allocation by predicting exact delay time.
+## <span style="color:#7ec4cf;">📘 Project Summary</span>
 
-3️⃣ Multiclass Classification
-Goal: What is the reason for the delay?
-📦 Type: Categorical output (e.g., Technical issue, Weather, Crew, ATC...)
-📊 Model Examples: Decision Trees, Multinomial Logistic Regression
-🛠️ Use Case: Identify root causes to reduce future delays and take preventive actions.
+This project focuses on leveraging **Machine Learning** to predict and analyze **flight delays** for **Tunisair Handling**.
 
-🧩 Data Used
-We used operational data from Tunisair Handling, which includes:
+By analyzing operational data, we can:
+- 🔍 Predict whether a flight will be delayed
+- ⏳ Estimate how many minutes of delay
+- 🛠️ Identify the root cause of delays
 
-📋 Flight schedules (STD/STA)
+---
 
-✈️ Aircraft types
+## <span style="color:#f4a3a3;">🧠 Models in Action</span>
 
-⏰ Actual arrival/departure times
+### 🔹 <span style="color:#a1c4fd;">1. Binary Classification</span> – _Will the flight be delayed?_
 
-📍 Terminal & gate information
+- ✅ **Type:** Yes / No
+- 🤖 **Algorithms:** Logistic Regression, Random Forest, SVM
+- 📦 **Use Case:** Send alerts before the flight even arrives
 
-🛠️ Delay codes and reasons (from opscontrol_coderetard)
+---
 
-🧑‍✈️ Agent and corrective action history
+### 🔹 <span style="color:#a1c4fd;">2. Regression</span> – _How many minutes will the delay be?_
 
-🎯 Objectives
-🔮 Anticipate Delays: Make proactive decisions
+- ⏱️ **Type:** Numerical output (e.g., 18 minutes)
+- 📈 **Algorithms:** Linear Regression, XGBoost Regressor
+- ⚙️ **Use Case:** Allocate ground resources effectively
 
-⚙️ Optimize Resources: Better use of gates, crew, and equipment
+---
 
-🧘 Improve Passenger Experience: Less waiting, more satisfaction
+### 🔹 <span style="color:#a1c4fd;">3. Multiclass Classification</span> – _What is the cause of the delay?_
 
-📉 Reduce Operational Costs: Fewer disruptions = lower costs
+- 🧩 **Type:** Categories (Weather, Crew, Technical, etc.)
+- 📊 **Algorithms:** Decision Trees, Multinomial Logistic Regression
+- 🧠 **Use Case:** Understand patterns and optimize for future flights
 
-🪄 Tech Stack
-🐍 Python (Scikit-learn, Pandas, NumPy)
+---
 
-📊 Matplotlib & Seaborn for visualization
+## <span style="color:#b19cd9;">📊 Data Sources</span>
 
-🧪 Jupyter Notebook for experimentation
+Data from **Tunisair Handling** operational systems:
 
-💾 CSV/SQL files from Tunisair systems
+- 📋 Flight schedules (STD/STA)
+- 🛩️ Aircraft types
+- 🧑‍✈️ Agent logs and terminal data
+- 🧾 Delay codes & root causes
+- 🛠️ Corrective actions from historical incidents
 
-🎨 Aesthetic Inspiration
-This project is designed with a pastel theme 🌷 — gentle visuals and clean layouts that help you stay calm even when delays are not. Because data science can be beautiful too. 🧁✨
+---
 
-🚀 Next Steps
-✅ Clean and preprocess the data
+## <span style="color:#f7cac9;">🎯 Objectives</span>
 
-✅ Train/test ML models
+- 🔮 **Forecast delays** before they happen
+- 💼 **Empower decisions** with data
+- 🧘 **Reduce stress** for both passengers and ops
+- 💰 **Save money** by optimizing workflows
 
-🔄 Evaluate models with cross-validation
+---
 
-📈 Deploy or visualize results in Power BI or Streamlit
+## <span style="color:#99d8c9;">🧪 Tech Stack</span>
 
-💡 Final Note
-By predicting when, how long, and why delays occur, we can help Tunisair Handling soar toward a more efficient and passenger-friendly future.
+- 🐍 **Python** (Pandas, NumPy, Scikit-learn)
+- 📊 **Seaborn / Matplotlib** for visualizations
+- 🧠 **Jupyter Notebook** for experimentation
+- 🧾 Data from CSV & SQL databases
 
-“Because every minute on the ground is a minute lost in the sky.”
+---
+
+## <span style="color:#ffc8dd;">📌 Next Steps</span>
+
+- ✅ Data Cleaning & Preprocessing
+- ✅ Feature Engineering
+- 🔄 Model Training & Validation
+- 📈 Dashboard or API Deployment (Power BI / Streamlit)
+
+---
+
+## <span style="color:#cdb4db;">🛫 Why It Matters</span>
+
+Understanding **when**, **how long**, and **why** delays occur empowers Tunisair Handling to:
+
+- 📍 Plan resources better
+- 🕒 Avoid unnecessary ground delays
+- 📉 Decrease overall operational cost
+- 🧭 Improve passenger experience
+
+
+
 
